@@ -2,7 +2,7 @@ FROM ruby:latest
 
 # Install random stuff
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends php5-common php5-cli php5-curl && \
+    apt-get install -y --no-install-recommends php5-common php5-cli php5-curl rsync && \
     rm -rf /var/lib/apt/lists/*
 
 # Install gems

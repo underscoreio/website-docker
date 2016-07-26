@@ -8,6 +8,6 @@ To build the Docker image:
 Once it is built, login and push it to Docker Hub
 
 ```bash
-docker login 
+docker login
 docker push underscore/web:latest
 ```

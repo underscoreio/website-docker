@@ -3,11 +3,6 @@
 
 To build the Docker image:
 
-`docker build -t underscoreio/web .`
+`docker build -t underscoreio/web-s3 .`
 
-Once it is built, login and push it to Docker Hub
 
-```bash
-docker login
-docker push underscore/web:latest
-```

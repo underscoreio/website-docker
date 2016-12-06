@@ -9,5 +9,5 @@ Once it is built, login and push it to Docker Hub
 
 ```bash
 docker login 
-docker push underscore/web:latest
+docker push underscoreio/web:latest
 ```

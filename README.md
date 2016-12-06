@@ -5,9 +5,4 @@ To build the Docker image:
 
 `docker build -t underscoreio/web .`
 
-Once it is built, login and push it to Docker Hub
-
-```bash
-docker login 
-docker push underscoreio/web:latest
-```
+Pushing to master in this repository will [publish to docker automatically](https://hub.docker.com/r/underscoreio/web-s3/builds/) as `underscoreio/web-s3:latest`.
